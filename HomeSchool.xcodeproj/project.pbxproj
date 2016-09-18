@@ -16,10 +16,13 @@
 		C7196A481D8E3BD0002D52DB /* HomeSchoolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7196A471D8E3BD0002D52DB /* HomeSchoolTests.m */; };
 		C7196A531D8E3BD1002D52DB /* HomeSchoolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7196A521D8E3BD1002D52DB /* HomeSchoolUITests.m */; };
 <<<<<<< HEAD
+<<<<<<< HEAD
 		C7196A621D8E3F5B002D52DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7196A611D8E3F5B002D52DB /* ViewController.m */; };
 		C7196A661D8E3F7A002D52DB /* JJDownloadController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7196A641D8E3F7A002D52DB /* JJDownloadController.m */; };
 		C7196A671D8E3F7A002D52DB /* JJDownloadController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7196A651D8E3F7A002D52DB /* JJDownloadController.xib */; };
 		C7196A6A1D8E43A1002D52DB /* 1111ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7196A691D8E43A1002D52DB /* 1111ViewController.m */; };
+=======
+>>>>>>> parent of 172bf93... 杨剑
 =======
 >>>>>>> parent of 172bf93... 杨剑
 /* End PBXBuildFile section */
@@ -59,6 +62,7 @@
 		C7196A521D8E3BD1002D52DB /* HomeSchoolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeSchoolUITests.m; sourceTree = "<group>"; };
 		C7196A541D8E3BD1002D52DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 <<<<<<< HEAD
+<<<<<<< HEAD
 		C7196A601D8E3F5B002D52DB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C7196A611D8E3F5B002D52DB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C7196A631D8E3F7A002D52DB /* JJDownloadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJDownloadController.h; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 		C7196A651D8E3F7A002D52DB /* JJDownloadController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JJDownloadController.xib; sourceTree = "<group>"; };
 		C7196A681D8E43A1002D52DB /* 1111ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 1111ViewController.h; sourceTree = "<group>"; };
 		C7196A691D8E43A1002D52DB /* 1111ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 1111ViewController.m; sourceTree = "<group>"; };
+=======
+>>>>>>> parent of 172bf93... 杨剑
 =======
 >>>>>>> parent of 172bf93... 杨剑
 /* End PBXFileReference section */
@@ -121,6 +127,7 @@
 				C7196A301D8E3BD0002D52DB /* AppDelegate.h */,
 				C7196A311D8E3BD0002D52DB /* AppDelegate.m */,
 <<<<<<< HEAD
+<<<<<<< HEAD
 				C7196A601D8E3F5B002D52DB /* ViewController.h */,
 				C7196A611D8E3F5B002D52DB /* ViewController.m */,
 				C7196A681D8E43A1002D52DB /* 1111ViewController.h */,
@@ -128,6 +135,10 @@
 				C7196A631D8E3F7A002D52DB /* JJDownloadController.h */,
 				C7196A641D8E3F7A002D52DB /* JJDownloadController.m */,
 				C7196A651D8E3F7A002D52DB /* JJDownloadController.xib */,
+=======
+				C7196A331D8E3BD0002D52DB /* ViewController.h */,
+				C7196A341D8E3BD0002D52DB /* ViewController.m */,
+>>>>>>> parent of 172bf93... 杨剑
 =======
 				C7196A331D8E3BD0002D52DB /* ViewController.h */,
 				C7196A341D8E3BD0002D52DB /* ViewController.m */,
