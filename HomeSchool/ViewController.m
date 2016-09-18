@@ -17,6 +17,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"天啦噜");
+    NSLog(@"天啦噜");
+    NSLog(@"天啦噜");
+    NSLog(@"天啦噜");
+    NSLog(@"天啦噜");
+    NSLog(@"天啦噜");
+    NSLog(@"天啦噜");
+    NSLog(@"天啦噜");
+    NSLog(@"天啦噜");
+    NSLog(@"天啦噜");
+    NSLog(@"天啦噜");
+    NSLog(@"天啦噜");
+    NSLog(@"天啦噜");
     // Do any additional setup after loading the view, typically from a nib.
     // Do any additional setup after loading the view, typically from a nib.
     // Do any additional setup after loading the view, typically from a nib.
@@ -43,6 +55,10 @@
     // Dispose of any resources that can be recreated.
     // Dispose of any resources that can be recreated.
     // Dispose of any resources that can be recreated.
+    
+    
+    
+    
 }
 
 @end
