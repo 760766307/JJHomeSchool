@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  JJDownloadController.h
 //  HomeSchool
 //
 //  Created by 杨剑 on 16/9/18.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface JJDownloadController : UIViewController
 
 @end

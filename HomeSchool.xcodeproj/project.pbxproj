@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		C7196A2F1D8E3BD0002D52DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7196A2E1D8E3BD0002D52DB /* main.m */; };
 		C7196A321D8E3BD0002D52DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7196A311D8E3BD0002D52DB /* AppDelegate.m */; };
-		C7196A351D8E3BD0002D52DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7196A341D8E3BD0002D52DB /* ViewController.m */; };
 		C7196A381D8E3BD0002D52DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7196A361D8E3BD0002D52DB /* Main.storyboard */; };
 		C7196A3A1D8E3BD0002D52DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7196A391D8E3BD0002D52DB /* Assets.xcassets */; };
 		C7196A3D1D8E3BD0002D52DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7196A3B1D8E3BD0002D52DB /* LaunchScreen.storyboard */; };
 		C7196A481D8E3BD0002D52DB /* HomeSchoolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7196A471D8E3BD0002D52DB /* HomeSchoolTests.m */; };
 		C7196A531D8E3BD1002D52DB /* HomeSchoolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7196A521D8E3BD1002D52DB /* HomeSchoolUITests.m */; };
+		C7196A621D8E3F5B002D52DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7196A611D8E3F5B002D52DB /* ViewController.m */; };
+		C7196A661D8E3F7A002D52DB /* JJDownloadController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7196A641D8E3F7A002D52DB /* JJDownloadController.m */; };
+		C7196A671D8E3F7A002D52DB /* JJDownloadController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7196A651D8E3F7A002D52DB /* JJDownloadController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,6 @@
 		C7196A2E1D8E3BD0002D52DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C7196A301D8E3BD0002D52DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C7196A311D8E3BD0002D52DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C7196A331D8E3BD0002D52DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C7196A341D8E3BD0002D52DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C7196A371D8E3BD0002D52DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7196A391D8E3BD0002D52DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7196A3C1D8E3BD0002D52DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +51,11 @@
 		C7196A4E1D8E3BD1002D52DB /* HomeSchoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeSchoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7196A521D8E3BD1002D52DB /* HomeSchoolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeSchoolUITests.m; sourceTree = "<group>"; };
 		C7196A541D8E3BD1002D52DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7196A601D8E3F5B002D52DB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C7196A611D8E3F5B002D52DB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C7196A631D8E3F7A002D52DB /* JJDownloadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJDownloadController.h; sourceTree = "<group>"; };
+		C7196A641D8E3F7A002D52DB /* JJDownloadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJDownloadController.m; sourceTree = "<group>"; };
+		C7196A651D8E3F7A002D52DB /* JJDownloadController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JJDownloadController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +108,11 @@
 			children = (
 				C7196A301D8E3BD0002D52DB /* AppDelegate.h */,
 				C7196A311D8E3BD0002D52DB /* AppDelegate.m */,
-				C7196A331D8E3BD0002D52DB /* ViewController.h */,
-				C7196A341D8E3BD0002D52DB /* ViewController.m */,
+				C7196A601D8E3F5B002D52DB /* ViewController.h */,
+				C7196A611D8E3F5B002D52DB /* ViewController.m */,
+				C7196A631D8E3F7A002D52DB /* JJDownloadController.h */,
+				C7196A641D8E3F7A002D52DB /* JJDownloadController.m */,
+				C7196A651D8E3F7A002D52DB /* JJDownloadController.xib */,
 				C7196A361D8E3BD0002D52DB /* Main.storyboard */,
 				C7196A391D8E3BD0002D52DB /* Assets.xcassets */,
 				C7196A3B1D8E3BD0002D52DB /* LaunchScreen.storyboard */,
@@ -244,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7196A3D1D8E3BD0002D52DB /* LaunchScreen.storyboard in Resources */,
+				C7196A671D8E3F7A002D52DB /* JJDownloadController.xib in Resources */,
 				C7196A3A1D8E3BD0002D52DB /* Assets.xcassets in Resources */,
 				C7196A381D8E3BD0002D52DB /* Main.storyboard in Resources */,
 			);
@@ -270,7 +279,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7196A351D8E3BD0002D52DB /* ViewController.m in Sources */,
+				C7196A621D8E3F5B002D52DB /* ViewController.m in Sources */,
+				C7196A661D8E3F7A002D52DB /* JJDownloadController.m in Sources */,
 				C7196A321D8E3BD0002D52DB /* AppDelegate.m in Sources */,
 				C7196A2F1D8E3BD0002D52DB /* main.m in Sources */,
 			);
@@ -496,6 +506,7 @@
 				C7196A591D8E3BD1002D52DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7196A5A1D8E3BD1002D52DB /* Build configuration list for PBXNativeTarget "HomeSchoolTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +515,7 @@
 				C7196A5C1D8E3BD1002D52DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7196A5D1D8E3BD1002D52DB /* Build configuration list for PBXNativeTarget "HomeSchoolUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +524,7 @@
 				C7196A5F1D8E3BD1002D52DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

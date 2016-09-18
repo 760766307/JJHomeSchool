@@ -1,22 +1,22 @@
 //
-//  ViewController.m
+//  JJDownloadController.m
 //  HomeSchool
 //
 //  Created by 杨剑 on 16/9/18.
 //  Copyright © 2016年 杨剑. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "JJDownloadController.h"
 
-@interface ViewController ()
+@interface JJDownloadController ()
 
 @end
 
-@implementation ViewController
+@implementation JJDownloadController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning {
